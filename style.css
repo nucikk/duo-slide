@@ -1,0 +1,7 @@
+
+#slide_wrapper {
+    height: 200px;
+    background-color: rebeccapurple;
+    display: flex;
+    justify-content: space-between;
+}
