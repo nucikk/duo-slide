@@ -1,18 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Duo</title>
-</head>
-<body>
-    <div id="slide_wrapper">
-        <div class="left"></div>
-        <div class="slide"></div>
-        <div class="right"></div>
+  </head>
+  <body>
+
+  
+    <div class="calculator-container">       
+                   
+        <h2 id="result"></h2>
+
+      <input id="number-first" type="number" placeholder="enter number" />
+      <input id="number-second" type="number" placeholder="enter number" />
+
+      <button class="btn-count" onclick="calculate()">Count</button>
     </div>
 
-    <script src="./index.html"></script>
-</body>
+    <script src="./slide.js"></script>
+  </body>
 </html>
