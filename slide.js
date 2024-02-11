@@ -1,3 +1,21 @@
+const headerMenu = ["Home", "About", "Blog", "Contact"];
+
+const findList = document.getElementById("menu")
+
+function createElementAddText(text) {
+    const element = document.createElement("li");
+    element.innerText = text;
+    findList.appendChild(element)
+}
+
+function generateMenu () {
+    for (let i = 0; i < headerMenu.length; i++) {
+        createElementAddText(headerMenu[i])
+        }
+}
+
+generateMenu();
+
 function add(a,b) {
     return a + b;
 }

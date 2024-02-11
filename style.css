@@ -36,3 +36,16 @@ input {
     margin: 30px;
     border-radius: 50%;
 }
+header {
+    height: 70px;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    font-size: 18px;
+    padding: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
