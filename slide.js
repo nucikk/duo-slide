@@ -30,3 +30,11 @@ function calculate() {
     resultElement.innerText = getValue();
     resultElement.style.display = "block"
 }
+
+
+function ChangeStyle() {
+    let elements = document.getElementsByClassName("second");
+    for (let i = 0; i < elements.length; i++) {
+        elements[i].style.color = "#b11616"
+    }
+}

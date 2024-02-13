@@ -7,21 +7,30 @@
     <title>Duo</title>
   </head>
   <body>
-
     <header>
-        <nav>
-            <ul id="menu"></ul>
-        </nav>
+      <nav>
+        <ul id="menu"></ul>
+      </nav>
     </header>
-  
-    <div class="calculator-container">       
-        <h2 id="result" style="display: none;"></h2>
+
+    <div class="calculator-container">
+      <h2 id="result" style="display: none"></h2>
       <input id="number-first" type="number" placeholder="enter number" />
       <input id="number-second" type="number" placeholder="enter number" />
 
       <button class="btn-count" onclick="calculate()">Count</button>
     </div>
 
+<footer>
+  <ul id="footer-list">
+    <li class="first">Privacy policy</li>
+    <li class="second">Terms and Conditions</li>
+    <li class="first">Cookies</li>
+    <li class="second">Navigation</li>
+    <li class="first">Contact</li>  <button class="change-style-btn" onclick="ChangeStyle()">Change Color</button>
+
+  </ul>
+</footer>
     <script src="./slide.js"></script>
   </body>
 </html>
