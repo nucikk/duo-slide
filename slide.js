@@ -34,7 +34,23 @@ function calculate() {
 
 function ChangeStyle() {
     let elements = document.getElementsByClassName("second");
+    let firstElement = document.getElementsByClassName("first");
+    
     for (let i = 0; i < elements.length; i++) {
         elements[i].style.color = "#b11616"
     }
+
+    for (let i = 0; i < firstElement.length; i++) {
+        setTimeout(() => {
+            firstElement[i].style.opacity = 0.8
+        },1000);
+        setTimeout(() => {
+            firstElement[i].style.opacity = 0.5
+        },2000);
+        setTimeout(() => {
+            firstElement[i].style.opacity = 0
+        },3000)
+    }
+    
 }
+
